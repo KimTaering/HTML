@@ -1,0 +1,25 @@
+Ctrl + B 사이드바 열고/닫기
+Ctrl + P 빠른열기(파일이나 기호 탐색)
+Ctrl+Shift+P 편집기 열기
+Ctrl + W 편집기 닫기
+Ctrl + F 찾기(검색)
+Ctrl + H 찾기(검색) / 바꾸기(대체)
+Alt + Up 줄 위로 이동
+Alt + Shift + Down 아랫줄이동
+Alt + Shift + Up 윗줄이동
+Tab 들여쓰기(Indent)
+Shift + Tab 내어쓰기(Outdent)
+Ctrl + PageUp 이전 편집기 열기(좌측 창으로 전환)
+Ctrl + Shift + PageDown 다음 편집기 열기(우측 창으로 전환)
+Ctrl + \ 편집기 분할
+
+상대경로 vs 절대경로
+- 상대경로
+	"./" 주변 의미(생략 가능)
+	"../" 상위 폴더
+- 절대경로
+	"http(https)" 원격
+	"/(//)" 최상위 경로, 루트, 프로젝트 전체
+
+http://localhost:5500
+

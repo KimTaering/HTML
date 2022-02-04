@@ -1,0 +1,53 @@
+<!DOCTYPE html> # 문서(페이지)의 HTML 버전 지정
+# HTML(특히 index.html)을 하나의 페이지로 이해할 수 있다
+# 표준 : HTML5
+
+<html> # html 문서의 전체 범위
+
+  <head> # 문서의 정보를 나타내는 범위
+    # 웹 브라우저가 해석해야 할
+    # 웹 페이지의 제목, 설명, 사용할 파일 위치, 스타일(CSS) 같은
+    # 웹 페이지의 보이지 않는 정보를 작성하는 범위
+
+  </head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    # <meta />는 HTML 문서(웹페이지)의 제작자, 내용, 키워드 같은
+    # 여러 정보를 검색엔진이나 브라우저에게 제공
+    # charset : 문자인코딩 방식
+    # name :  정보의 종류
+    # content : 정보의 값
+    # viewport : 웹페이지가 출력되는 영역에 해당하는 실제 값(모바일 장치)
+    
+
+    <title>Naver</title> # HTML 문서의 제목을 정의
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./favicon.png">
+    # 외부 문서를 가져와 연결할 때 사용(대부분 CSS 파일)
+    # rel : 가져올 문서와의 관계
+    # href : 가져올 문서의 경로 ./
+    # favicon : favorite icon
+
+    <style> # 스타일(CSS)를 HTML 문서 안에서 작성한느 경우에 사용
+        div {
+            color: red;
+        }
+    </style>
+
+    <script src="./main.js"></script>
+    # src : 자바스크립트 파일 가져오는 경우
+    #<script></srcirpt> 자바스크립트를  html 문서 안에서 작성하는 경우
+
+  <body> # 문서의 구조를 나타내는 범위
+    # 사용자 화면을 통해 보여지는
+    # 로고, 헤더, 푸터, 내비게이션, 메뉴, 버튼, 이미지 같은
+    # 웹페이지의 보여지는 구조를 작성하는 범위
+
+    <div>Hello World!</div>
+
+    <a href="https://naver.com">NAVER</a> #하이퍼텍스트 태그 a
+  </body>
+
+</html>
